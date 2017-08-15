@@ -1,3 +1,1 @@
-# GitTest
-# Testing testing 1..2..3..
-# May nadagdag ba?
+# WhiteSpace Test Website Dashboard for Admins
