@@ -1,1 +1,1 @@
-# WhiteSpace Test Website Dashboard for Admins
+# WhiteSpace Test Dashboard for Admins
