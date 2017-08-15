@@ -3,16 +3,17 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    font-family: Roboto;
+    font-family: Roboto Light;
     padding-top: 50px;
     padding-left: 25px;
     padding-right: 25px;
+    color: #fff;
 }
 
 .sidenav{
-
+    padding: 15px;
 }
 
-.sidenavin{
-    padding: 15px;
+hr{
+    background-color: #fff;
 }
