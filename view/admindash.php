@@ -8,7 +8,7 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-
+  <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
@@ -19,7 +19,13 @@
           <h4>WHITESPACE ADMIN DASHBOARD</h4>
           <br />
           <h6 class="font-italic">Welcome, adminName</h6>
-          <button type="button" class="btn btn-outline-danger btn-sm ">Logout</button>
+          <form action="controller.php?action=adminlogout" method="POST">
+            <div class="form-group row">
+              <div class="col-sm-12">
+                <button type="sumbit" class="btn btn-outline-danger btn-sm">Logout</button>
+              </div>
+            </div>
+          </form>
           <br />
           <br />
         </div>
