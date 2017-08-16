@@ -15,23 +15,29 @@
   <div class="container">
     <div class="row justify-content-between">
       <div class="col-sm-3">
-        <div class="nav flex-column nav-pills navbar-dark bg-dark sidenav" id="v-pills-tab" role="tablist">
-          <h4 class="text-center">WHITESPACE ADMIN DASHBOARD</h4>
-          <hr>
+        <div class="col text-center">
+          <h4>WHITESPACE ADMIN DASHBOARD</h4>
+          <br />
+          <h6 class="font-italic">Welcome, adminName</h6>
+          <button type="button" class="btn btn-outline-danger btn-sm ">Logout</button>
+          <br />
+          <br />
+        </div>
+        <div class="nav flex-column nav-pills navbar-dark sidenav rounded-left border border-bottom-0 border-right-0 border-top-0 border-secondary" id="v-pills-tab" role="tablist">
           <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-expanded="true">Overview</a>
           <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-expanded="true">Enroll Students</a>
           <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-expanded="true">Student Profiles</a>
           <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-expanded="true">Settings</a>
         </div>
       </div>
-      <div class="col-sm-8">
+      <div class="col-sm-9">
         <div class="tab-content tabstyle" id="v-pills-tabContent">
           <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-            <div class="row">
+            <div class="row" style="padding-left:15px;">
               <h4>OVERVIEW</h4>
             </div>
             <hr>
-            <div class="row">
+            <div class="row" style="padding-left:15px;">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
