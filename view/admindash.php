@@ -17,6 +17,9 @@
       <div class="col-sm-3">
         <div class="col text-center">
           <h4>WHITESPACE ADMIN DASHBOARD</h4>
+		  
+		  
+		  
           <br />
           <h6 class="font-italic">Welcome, adminName</h6>
           <form action="controller.php?action=adminlogout" method="POST">
